@@ -58,6 +58,12 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -114,20 +120,10 @@
     <None Include="Assets\Cardboard\Resources\UI\CardboardReticleShader.shader" />
     <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\SciFi_Door\readme.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-    <None Include="Assets\ZRNAssets\006441_09646_1_1\Documents\ReadMe.txt" />
-    <None Include="Assets\ZRNAssets\006441_09646_1_1\Shaders\su_Zmap_DoubleSide.shader" />
-    <None Include="Assets\ZRNAssets\006441_09646_1_1\Shaders\su_Zmap_funsui.shader" />
-    <None Include="Assets\ZRNAssets\006441_09646_1_1\Shaders\su_Zmap_way.shader" />
-    <None Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\Documents\ReadMe.txt" />
-    <None Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\Sapporo_Props\SnowBallFightObject\Shaders\PQ_Snow.shader" />
-    <None Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\Sapporo_Props\SnowBallFightObject\Shaders\PQ_Standard.shader" />
-    <None Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\license_en.txt" />
-    <None Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\license_jp.txt" />
-    <None Include="Assets\ZRNAssets\Standard Assets\Projectors\Guidelines.txt" />
-    <None Include="Assets\ZRNAssets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
-    <None Include="Assets\ZRNAssets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+    <None Include="Assets\trap3\badfluid@gmail.com.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
