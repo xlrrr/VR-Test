@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<credits>
+  <credit type="singlecolumn" data="You think it is over ?" data2="" />
+  <credit type="title" data="THE ADVENTURE HAS JUST BEGUN !" data2="" />
+  <credit type="space" data="2" data2="" />
+  <credit type="singlecolumn" data="VR Test scene" data2="" />
+  <credit type="twocolumns" data="Created by" data2="Bozhidar Tonchev" />
+  <credit type="twocolumns" data="" data2="Stefan Staykov" />
+  <credit type="space" data="3" data2="" />
+  <credit type="singlecolumn" data="Thank you for the attention !" data2="" />
+</credits>

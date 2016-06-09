@@ -58,12 +58,6 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -107,19 +101,30 @@
     <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardAndroidDevice.cs" />
     <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardiOSDevice.cs" />
     <Compile Include="Assets\Cardboard\Scripts\VRDevices\UnityEditorDevice.cs" />
-    <Compile Include="Assets\PrintRotation.cs" />
-    <Compile Include="Assets\SmashTrapScript.cs" />
+    <Compile Include="Assets\Credits\1_Scripts\Credits.cs" />
+    <Compile Include="Assets\Credits\1_Scripts\Prefabs\CreditLineInstance.cs" />
+    <Compile Include="Assets\Credits\1_Scripts\Prefabs\CreditLineInstanceImage.cs" />
+    <Compile Include="Assets\Credits\1_Scripts\Prefabs\CreditLineInstanceSingleColumn.cs" />
+    <Compile Include="Assets\Credits\1_Scripts\Prefabs\CreditLineInstanceSpace.cs" />
+    <Compile Include="Assets\Credits\1_Scripts\Prefabs\CreditLineInstanceTitle.cs" />
+    <Compile Include="Assets\Credits\1_Scripts\Prefabs\CreditLineInstanceTwoColumns.cs" />
+    <Compile Include="Assets\Credits\3_Demo\CreditsExampleScript.cs" />
+    <Compile Include="Assets\Scripts\FPSCameraController.cs" />
+    <Compile Include="Assets\Scripts\PrintRotation.cs" />
+    <Compile Include="Assets\Scripts\ZombieFollow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Cardboard\Distortion\CardboardDistortion.cginc" />
     <None Include="Assets\Cardboard\Resources\SolidColor.shader" />
     <None Include="Assets\Cardboard\Resources\UI\CardboardReticleShader.shader" />
     <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
+    <None Include="Assets\Credits\3_Demo\Resources\credits.xml" />
+    <None Include="Assets\Credits\creditsVR.xml" />
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
-    <None Include="Assets\SciFi_Door\readme.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-    <None Include="Assets\trap3\badfluid@gmail.com.txt" />
+    <None Include="Assets\Traps\SciFi_Door\readme.txt" />
+    <None Include="Assets\Traps\doorTrap\badfluid@gmail.com.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

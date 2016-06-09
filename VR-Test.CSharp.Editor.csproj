@@ -94,30 +94,6 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.EditorTestsRunner">
-      <HintPath>Library\UnityAssemblies\UnityEditor.EditorTestsRunner.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEditor.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\UnityAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEditor.Advertisements.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.TreeEditor">
-      <HintPath>Library\UnityAssemblies\UnityEditor.TreeEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
@@ -147,6 +123,7 @@
     <Compile Include="Assets\Cardboard\Editor\CardboardMenu.cs" />
     <Compile Include="Assets\Cardboard\Editor\CardboardSetup.cs" />
     <Compile Include="Assets\Cardboard\Editor\StereoControllerEditor.cs" />
+    <Compile Include="Assets\Credits\1_Scripts\Editor\CreditsEditor.cs" />
     <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -154,11 +131,13 @@
     <None Include="Assets\Cardboard\Resources\SolidColor.shader" />
     <None Include="Assets\Cardboard\Resources\UI\CardboardReticleShader.shader" />
     <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
+    <None Include="Assets\Credits\3_Demo\Resources\credits.xml" />
+    <None Include="Assets\Credits\creditsVR.xml" />
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
-    <None Include="Assets\SciFi_Door\readme.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-    <None Include="Assets\trap3\badfluid@gmail.com.txt" />
+    <None Include="Assets\Traps\SciFi_Door\readme.txt" />
+    <None Include="Assets\Traps\doorTrap\badfluid@gmail.com.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
